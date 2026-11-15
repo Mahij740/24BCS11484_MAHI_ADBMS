@@ -1,3 +1,4 @@
+HEAD
 # Apex Bank - Banking Management System with Fraud Detection (ADBMS)
 
 A demo banking management system designed for a college **Advanced Database Management Systems (ADBMS)** project.
@@ -210,3 +211,7 @@ Follow these steps during your project viva/presentation:
   *A:* In `sp_transfer_money`, account locks (`SELECT ... FOR UPDATE`) are acquired strictly in order of ascending `account_id` (`IF from_id < to_id ...`). This guarantees no two concurrent reverse transfers can block each other cyclically.
 - **Q: What happens when an Admin rejects a transaction?**
   *A:* The system executes a compensating transaction that reverts balances (crediting the sender and debiting the recipient), preserving full audit trails rather than deleting transaction history.
+
+
+24BCS11484_Mahi Jain_ADMS
+aa2443f7f6419a24fb4387364f8f84e7d4fabec3
