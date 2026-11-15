@@ -212,6 +212,3 @@ Follow these steps during your project viva/presentation:
 - **Q: What happens when an Admin rejects a transaction?**
   *A:* The system executes a compensating transaction that reverts balances (crediting the sender and debiting the recipient), preserving full audit trails rather than deleting transaction history.
 
-
-24BCS11484_Mahi Jain_ADMS
-aa2443f7f6419a24fb4387364f8f84e7d4fabec3
